@@ -490,9 +490,56 @@ a:focus {
 .content-footer-two {
   padding: 52px 0 100px 70px;
   margin: 0 0 0 0px;
-  /* border-color: pink;
+  border-color: pink;
   border-width: 1px;
-  border-style: dashed; */
+  border-style: dashed;
+}
+
+.content-footer-three {
+  padding: 72px 0 94px 0;
+  margin: 0 0 0 0px;
+  border-color: pink;
+  border-width: 1px;
+  border-style: dashed;
+}
+
+.content-footer-three .header-third {
+  display: flex;
+  flex-direction: column;
+  padding-left: 78px;
+}
+
+.content-footer-three form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-third input {
+  min-width: 358px;
+  min-height: 50px;
+  background-color: var(--background-second);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--text-color-fourth);
+  padding-left: 16px;
+  margin-top: 20px;
+}
+
+form .button-alternative {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 28px 0 42px;
+  justify-content: space-between;
+}
+
+.icon-footer-form {
+  width: 24px;
+  height: 24px;
 }
 
 .footer-content-width {

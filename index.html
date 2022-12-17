@@ -70,7 +70,6 @@
         <button type="button" class="button-alternative" data-modal-open>
           Zamów usługe
         </button>
-
       </section>
       <section class="section">
         <ul class="text-main">
@@ -551,25 +550,39 @@
             </li>
           </ul>
         </section>
-      </div>
-              <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button type="button" class="button-modal" data-modal-close>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="11"
-                height="11"
-                viewBox="0 0 11 11"
-                fill="none"
-              >
-                <path
-                  d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
-                  fill="black"
-                />
+        <section class="content-footer-three">
+          <form>
+            <label class="header-third">
+              zapisz się do newslettera
+              <input type="mail" name="email" placeholder="E-mail" />
+            </label>
+            <button class="button-alternative" type="submit">
+              Zapisz się
+              <svg class="icon-footer-form">
+                <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
+        </section>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" class="button-modal" data-modal-close>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="11"
+              height="11"
+              viewBox="0 0 11 11"
+              fill="none"
+            >
+              <path
+                d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+                fill="black"
+              />
+            </svg>
+          </button>
         </div>
+      </div>
     </footer>
     <script src="./js/modal.js"></script>
   </body>
