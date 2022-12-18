@@ -581,6 +581,73 @@
               />
             </svg>
           </button>
+          <form>
+            <div
+              class="modal-content"
+              role="group"
+              aria-labelledby="contact-details"
+            >
+              <p id="contact-details">Zostaw swoje dane w formularzu poniżej</p>
+              <label>
+                Imie
+                <svg>
+                  <use href="./images/icons.svg#icon-human"></use>
+                </svg>
+                <input type="text" name="username" />
+              </label>
+              <label>
+                <svg>
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                Telefon
+                <input type="tel" name="phonenumber" />
+              </label>
+              <label>
+                <svg>
+                  <use href="./images/icons.svg#icon-envelope-modal"></use>
+                </svg>
+                Email
+                <input type="email" name="email" />
+              </label>
+              <label>
+                Komentarz
+                <textarea
+                  name="comment"
+                  placeholder="Wprowadź tekst"
+                ></textarea>
+              </label>
+            </div>
+            <div
+              class="modal-terms"
+              role="group"
+              aria-labelledby="terms-condition"
+            >
+              <label>
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="terms-condition"
+                  value="terms-condition"
+                  required
+                />
+                Oświadczas iż ackeptuję
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Regulamin</a
+                >
+                i
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Politykę Prywatności.</a
+                >
+              </label>
+            </div>
+            <button type="submit">Wyślij</button>
+          </form>
         </div>
       </div>
     </footer>
