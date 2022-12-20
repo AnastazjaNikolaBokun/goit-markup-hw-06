@@ -728,8 +728,8 @@ a:focus {
   border-style: dashed; */
 }
 
-.modal-content svg:focus,
-.modal-content svg:hover {
+.modal-content label:focus,
+.modal-content label:hover {
   fill: var(--mark-color);
 }
 
